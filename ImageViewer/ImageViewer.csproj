@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\Gray Folder Icon.png" />
+    <None Remove="Resources\Images\Reset Icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Source\Image\" />
+    <Folder Include="Source\MVVM\View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\Gray Folder Icon.png" />
+    <Resource Include="Resources\Images\Reset Icon.png" />
+  </ItemGroup>
+
+</Project>
