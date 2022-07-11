@@ -1,6 +1,6 @@
 # Image Viewer
 
-An image viewer application written using WPF.
+An image viewer application.
 
 ## Features
 
